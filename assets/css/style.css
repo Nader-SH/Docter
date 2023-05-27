@@ -1194,11 +1194,13 @@ button.bg-danger:hover {
 	align-items: center;
 	padding: 20px;
 	justify-content: space-around;
-  }
+	gap: 2rem;
+}
   
-  .banner-left {
+.banner-left {
 	flex: 1;
 	padding-right: 20px;
+	position: relative;
   }
   
   .banner-right {
@@ -1208,6 +1210,34 @@ button.bg-danger:hover {
   .banner-image {
 	width: auto;
 	height: auto;
+  }
+  .lang-section {
+	display: flex;
+	align-items: center;
+	width: 80px;
+	gap: 8px;
+  }
+  .lang-section p {
+	margin: 0;
+  }
+  .banner-plus {
+	position: absolute;
+	right: 2rem;
+  }
+  .see-all-btn-wrapper {
+	display: flex;
+	justify-content: center;
+	margin: 50px 0;
+  }
+   .see-all-btn {
+	padding: 13px 40px;
+	background-color: #6EC7C3;
+	color: #fff;
+	border-radius: 10px;
+	border: 1px solid #6EC7C3;
+  }
+  .see-all-btn:hover {
+	background-color: #fff;
   }
 .nav-tabs.nav-justified > li > a:hover,
 .nav-tabs.nav-justified > li > a:focus {
@@ -2514,7 +2544,7 @@ html.menu-opened body {
     margin: 30px 0 0;
 }
 .section-doctor {
-	background-color: #f8f9fa;
+	background-color:#F5FBFB;
 	padding: 80px 0;
 }
 .section-doctor .section-header {
@@ -2611,15 +2641,22 @@ html.menu-opened body {
 }
 .profile-widget p.speciality {
     font-size: 13px;
-    color: #757575;
+    color: #0000004F;
     margin-bottom: 5px;
     min-height: 40px;
+
+}
+.rating-wrapper {
+	display: flex;
+	justify-content: space-between;
 }
 .rating {
     list-style: none;
     margin: 0 0 7px;
-    padding: 0;
+    padding: 4px;
     width: 100%;
+	background-color: #6EC7C324;
+	width: 50px;
 }
 .rating i {
     color: #dedfe0;
@@ -2642,6 +2679,7 @@ html.menu-opened body {
     list-style: none;
     padding: 0;
     margin-bottom: 15px;
+	display: flex;
 }
 .available-info li + li {
 	margin-top: 5px;
@@ -2658,21 +2696,21 @@ html.menu-opened body {
     padding-right: 3px;
 }
 .view-btn {
-    color: #0de0fe;
+    color: #6EC7C3;
     font-size: 13px;
-    border: 2px solid #0de0fe;
+    border: 2px solid #6EC7C3;
     text-align: center;
     display: block;
     font-weight: 500;
 	padding: 6px;
 }
 .view-btn:hover, .view-btn:focus {
-	background-color: #0de0fe;
+	background-color: #6EC7C3;
 	color: #fff;
 }
 .book-btn {
-	background-color: #0de0fe;
-    border: 2px solid #0de0fe;
+	background-color: #6EC7C3;
+    border: 2px solid #6EC7C3;
     color: #fff;
     font-size: 13px;
     text-align: center;
@@ -2681,8 +2719,8 @@ html.menu-opened body {
 	padding: 6px;
 }
 .book-btn:hover, .book-btn:focus {
-	background-color: #01cae4;
-	border-color: #01cae4;
+	background-color: #6EC7C3;
+	border-color: #6EC7C3;
 	color: #fff;
 }
 .section-doctor .profile-widget {
@@ -6787,4 +6825,11 @@ html.menu-opened body {
 	.fc-header-toolbar .fc-right {
 		margin-bottom: 10px;
 	}
+}
+
+.section-3-wrapper {
+	position: relative;
+}
+.pseudo2-img {
+	position: absolute;
 }
