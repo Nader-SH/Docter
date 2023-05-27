@@ -154,6 +154,13 @@ input[type=password] {
 .btn.focus, .btn:focus {
 	box-shadow: inherit;
 }
+.nameAndTime{
+	display: flex;
+	justify-content: space-around;
+}
+.nameAndTimeText{
+	color: gray;
+}
 .form-control {
     color: #333;
 	font-size: 15px;
@@ -2063,7 +2070,7 @@ html.menu-opened body {
 -----------------------*/
 
 .footer {
-    background-color: #15558d;
+    background-color: #6EC7C3;
 }
 .footer .footer-top {
 	padding: 40px 0;
@@ -2129,7 +2136,7 @@ html.menu-opened body {
 	margin-right: 15px;
 }
 .footer .footer-bottom .copyright {
-	border-top: 1px solid #1663a6;
+	border-top: 1px solid white;
 	padding: 30px 0;
 }
 .footer .footer-bottom .copyright-text p {
@@ -2137,7 +2144,7 @@ html.menu-opened body {
 	font-size: 15px;
 }
 .footer .footer-bottom .copyright-text p a {
-	color: #09e5ab;
+	color: white;
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
@@ -2172,7 +2179,7 @@ html.menu-opened body {
 	transition: all 0.4s ease 0s;
 }
 .footer .social-icon ul li a:hover {
-	color: #09e5ab;
+	color: white;
 }
 .policy-menu {
     font-size: 14px;
@@ -2191,7 +2198,7 @@ html.menu-opened body {
     color: #fff;
 }
 .policy-menu li a:hover, .policy-menu li a:focus {
-	color: #09e5ab;
+	color: white;
 }
 .policy-menu li::after {
 	color: #fff;
@@ -2557,7 +2564,30 @@ html.menu-opened body {
 	display: block;
 	margin-left: 0;
 	padding: 10px;
-	width: 280px;
+	width: 450px;
+}
+.seeAllBtn{
+	width: 200px;
+	color: white;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+	padding: 6px;
+	background-color: #6EC7C3;
+}
+.seeAllBtn:hover{
+	width: 200px;
+	color: white;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+	padding: 6px;
+	background-color: #6EC7C3;
+}
+.seeAllBtnDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .profile-widget {
     background-color: #fff;
